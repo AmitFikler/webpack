@@ -1,0 +1,10 @@
+#board {
+    height: 80vh;
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: 1rem repeat(7, 1fr) 1rem;
+    grid-template-rows: 1rem repeat(7, 1fr) 1rem;
+    gap: 0.3rem;
+    border: 1px black solid;
+}
+  
